@@ -1,0 +1,13 @@
+.\obj\param.o: USER\SRC\param.c
+.\obj\param.o: .\USER\INC\param.h
+.\obj\param.o: .\Libraries\CMSIS\stm32f4xx.h
+.\obj\param.o: E:\NEW_mdk\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\obj\param.o: E:\NEW_mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\param.o: E:\NEW_mdk\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\obj\param.o: E:\NEW_mdk\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\obj\param.o: E:\NEW_mdk\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\obj\param.o: E:\NEW_mdk\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\obj\param.o: .\Libraries\CMSIS\system_stm32f4xx.h
+.\obj\param.o: .\USER\INC\stm32f4xx_conf.h
+.\obj\param.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
+.\obj\param.o: .\Libraries\CMSIS\stm32f4xx.h
