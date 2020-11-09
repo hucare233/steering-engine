@@ -18,9 +18,6 @@
 .\obj\main.o: .\USER\INC\param.h
 .\obj\main.o: .\USER\INC\delay.h
 .\obj\main.o: .\USER\INC\led.h
-.\obj\main.o: .\USER\INC\tim4.h
-.\obj\main.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h
-.\obj\main.o: .\USER\INC\beep.h
 .\obj\main.o: .\GeneralFunction\inc\sys.h
 .\obj\main.o: .\uCOSII\CONFIG\includes.h
 .\obj\main.o: E:\NEW_mdk\ARM\ARMCC\Bin\..\include\stdio.h
@@ -31,3 +28,6 @@
 .\obj\main.o: .\uCOSII\CORE\ucos_ii.h
 .\obj\main.o: .\uCOSII\CONFIG\os_cfg.h
 .\obj\main.o: .\uCOSII\PORT\os_cpu.h
+.\obj\main.o: .\USER\INC\tim5.h
+.\obj\main.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h
+.\obj\main.o: .\USER\INC\beep.h

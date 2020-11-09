@@ -1,16 +1,7 @@
-/*
- * @Descripttion: 定时器5：控制pwm输出
- * @version: 第一版
- * @Author: 叮咚蛋
- * @Date: 2020-10-17 09:37:55
- * @LastEditors: 叮咚蛋
- * @LastEditTime: 2020-11-09 20:40:34
- * @FilePath: \F4舵机板\USER\SRC\tim4.c
- */
 #include "tim5.h"
 
 /**
-  *@brief 定时器5初始化函数
+  *@brief 定时器4初始化函数
 	**/
 void TIM5_Init(u16 arr, u16 psc)
 {
@@ -48,14 +39,14 @@ void TIM5_Init(u16 arr, u16 psc)
 }
 
 /**
-  *@brief 定时器5中断服务函数
+  *@brief 定时器4中断服务函数
 	**/
 
 void TIM5_IRQHandler(void)
 {
-	if (TIM_GetITStatus(TIM4, TIM_IT_Update) != RESET)
+	if (TIM_GetITStatus(TIM5, TIM_IT_Update) != RESET)
 	{
-		TIM_ClearITPendingBit(TIM4, TIM_IT_Update);
+		TIM_ClearITPendingBit(TIM5, TIM_IT_Update);
 
 		pwm_out(&Steering_Engine[0]);
 

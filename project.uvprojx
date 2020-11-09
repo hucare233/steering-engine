@@ -399,11 +399,6 @@
               <FilePath>.\USER\SRC\delay.c</FilePath>
             </File>
             <File>
-              <FileName>can2.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\USER\SRC\can2.c</FilePath>
-            </File>
-            <File>
               <FileName>led8.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\USER\SRC\led8.c</FilePath>
@@ -429,11 +424,6 @@
               <FilePath>.\USER\SRC\stm32f4xx_it.c</FilePath>
             </File>
             <File>
-              <FileName>usart1.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\USER\SRC\usart1.c</FilePath>
-            </File>
-            <File>
               <FileName>usart2.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\USER\SRC\usart2.c</FilePath>
@@ -444,9 +434,9 @@
               <FilePath>.\USER\SRC\pwm.c</FilePath>
             </File>
             <File>
-              <FileName>tim4.c</FileName>
+              <FileName>tim5.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\USER\SRC\tim4.c</FilePath>
+              <FilePath>.\USER\SRC\tim5.c</FilePath>
             </File>
           </Files>
         </Group>

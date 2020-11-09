@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 第一版
+ * @Author: 叮咚蛋
+ * @Date: 2020-10-17 09:37:55
+ * @LastEditors: 叮咚蛋
+ * @LastEditTime: 2020-11-09 20:30:57
+ * @FilePath: \F4舵机板\USER\INC\param.h
+ */
 #ifndef _PARAM_H_
 
 #define _PARAM_H_
@@ -26,6 +35,7 @@
 
 #define PB4 4
 
+#define PB7 7
 /**舵机参数结构体**/
 struct Engine_Datadef
 {
